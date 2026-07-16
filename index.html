@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-27 Term 1 交互选课表</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div>
+        <h1>2026-27 Term 1 交互选课表</h1>
+        <div class="subtitle">右侧按修读计划展开课程并勾选 session；左侧实时渲染当前组合。18:00 后为 TUT zone，红色表示所选 session 时间重叠。</div>
+        <div id="lastUpdated" class="version">Data loading...</div>
+      </div>
+      <div class="legend">
+        <span class="key"><span class="dot eng"></span>ENG2001</span>
+        <span class="key"><span class="dot gea"></span>GEA2000</span>
+        <span class="key"><span class="dot core"></span>Major/elective</span>
+        <span class="key"><span class="dot conflict"></span>Conflict</span>
+      </div>
+    </header>
+
+    <section class="schedule-wrap" aria-label="Weekly schedule">
+      <div id="empty" class="empty-state">从右侧勾选课程 session 后，这里会实时生成课程表。</div>
+      <table id="schedule" hidden>
+        <thead>
+          <tr><th>Time</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr>
+        </thead>
+        <tbody id="scheduleBody"></tbody>
+      </table>
+    </section>
+
+    <aside aria-label="Course selector">
+      <h2>课程选择</h2>
+      <div class="tools">
+        <button id="selectAll" type="button">Select all</button>
+        <button id="clearAll" type="button">Clear</button>
+        <button id="openAll" type="button">Expand</button>
+        <button id="closeAll" type="button">Collapse</button>
+      </div>
+      <div id="courseList"></div>
+      <section class="selected-panel">
+        <h3>当前选择</h3>
+        <div id="selectedSummary">暂无勾选。</div>
+        <div id="conflictSummary" class="conflict-list"></div>
+      </section>
+    </aside>
+  </main>
+</body>
+</html>
