@@ -1,0 +1,2233 @@
+{
+  "lastUpdated": "2026-07-16",
+  "dataVersion": "2026-fall-pre-registration-v1",
+  "source": "Derived from 26Fall_schedule.html. Course data originally crawled from CUHK(SZ) SIS and PDF cross-check notes.",
+  "courseMeta": {
+    "GEA2000": {
+      "area": "必修 / 通识与英文",
+      "zh": "现代中国历史与文化",
+      "en": "Modern Chinese History and Culture",
+      "color": "gea"
+    },
+    "ENG2001": {
+      "area": "必修 / 通识与英文",
+      "zh": "学术英语 II",
+      "en": "English for Academic Purposes II",
+      "color": "eng"
+    },
+    "GFH1000": {
+      "area": "必修 / 通识与英文",
+      "zh": "与人文对话",
+      "en": "In Dialogue with Humanity",
+      "color": "gea"
+    },
+    "GFN1000": {
+      "area": "必修 / 通识与英文",
+      "zh": "与自然对话",
+      "en": "In Dialogue with Nature",
+      "color": "gea"
+    },
+    "DDA3005": {
+      "area": "Area 1 Mathematical Foundation",
+      "zh": "数值方法",
+      "en": "Numerical Methods",
+      "color": "core"
+    },
+    "MAT3040": {
+      "area": "Area 1 Mathematical Foundation",
+      "zh": "高等线性代数",
+      "en": "Advanced Linear Algebra",
+      "color": "core"
+    },
+    "MAT3006": {
+      "area": "Area 1 Mathematical Foundation",
+      "zh": "实分析",
+      "en": "Real Analysis",
+      "color": "core"
+    },
+    "DDA4220": {
+      "area": "Complementary / ML & DL",
+      "zh": "深度学习及应用",
+      "en": "Deep Learning and Applications",
+      "color": "core"
+    },
+    "DDA4250": {
+      "area": "Complementary / ML & DL",
+      "zh": "深度学习数学导论",
+      "en": "Mathematical Introduction to Deep Learning",
+      "color": "core"
+    },
+    "DDA4002": {
+      "area": "Complementary Electives",
+      "zh": "随机模拟",
+      "en": "Stochastic Simulation",
+      "color": "core"
+    },
+    "STA3007": {
+      "area": "Area 2 Statistical Methodology",
+      "zh": "非参数统计",
+      "en": "Nonparametric Statistics",
+      "color": "core"
+    },
+    "STA4003": {
+      "area": "Area 2 Statistical Methodology",
+      "zh": "时间序列",
+      "en": "Time Series",
+      "color": "core"
+    },
+    "CSC3002": {
+      "area": "Area 3 Computing & Machine Learning",
+      "zh": "C/C++ 程序设计",
+      "en": "C/C++ Programming",
+      "color": "core"
+    },
+    "STA4606": {
+      "area": "Area 3 Computing & Machine Learning",
+      "zh": "生物医学研究机器学习",
+      "en": "Machine Learning for Biomedical Research",
+      "color": "core"
+    },
+    "STA4020": {
+      "area": "Area 4 Financial Statistics",
+      "zh": "金融市场统计建模",
+      "en": "Statistical Modelling in Financial Markets",
+      "color": "core"
+    },
+    "DDA4007": {
+      "area": "Not in STAT Scheme / Verify Credit",
+      "zh": "优化建模与应用",
+      "en": "Optimization Modeling and Applications",
+      "color": "core"
+    },
+    "DDA4330": {
+      "area": "Not in STAT Scheme / Verify Credit",
+      "zh": "现代优化",
+      "en": "Modern Optimization",
+      "color": "core"
+    },
+    "DDA4370": {
+      "area": "Not in STAT Scheme / Verify Credit",
+      "zh": "随机微分方程",
+      "en": "Stochastic Differential Equations",
+      "color": "core"
+    },
+    "STA4504": {
+      "area": "Not in STAT Scheme / Verify Credit",
+      "zh": "高级蒙特卡洛方法",
+      "en": "Advanced Monte Carlo Methods",
+      "color": "core"
+    }
+  },
+  "rows": [
+    [
+      "DDA3005",
+      "L01-LEC",
+      "Lecture",
+      "1949",
+      "MoWe 13:30 - 14:50",
+      "Teaching Complex C301",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "DDA3005",
+      "T01-TUT",
+      "Tutorial",
+      "1950",
+      "Tu 20:00 - 20:50",
+      "Teaching C Bldg 103",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "DDA3005",
+      "T02-TUT",
+      "Tutorial",
+      "1951",
+      "We 20:00 - 20:50",
+      "Teaching C Bldg 103",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "MAT3040",
+      "L01-LEC",
+      "Lecture",
+      "1821",
+      "MoWe 15:30 - 16:50",
+      "Teaching B Bldg 105",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "MAT3040",
+      "T01-TUT",
+      "Tutorial",
+      "1822",
+      "We 19:00 - 19:50",
+      "Teaching B Bldg 303",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "MAT3040",
+      "T02-TUT",
+      "Tutorial",
+      "1823",
+      "Th 18:00 - 18:50",
+      "Teaching B Bldg 303",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "MAT3040",
+      "T03-TUT",
+      "Tutorial",
+      "1824",
+      "We 20:00 - 20:50",
+      "Teaching B Bldg 303",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "DDA4220",
+      "L01-LEC",
+      "Lecture",
+      "1955",
+      "TuTh 10:30 - 11:50",
+      "Administration Bldg E205",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "MAT3006",
+      "L01-LEC",
+      "Lecture",
+      "1784",
+      "TuTh 13:30 - 14:50",
+      "Teaching A Bldg 302",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "MAT3006",
+      "T01-TUT",
+      "Tutorial",
+      "1785",
+      "Tu 19:00 - 19:50",
+      "Teaching B Bldg 303",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "MAT3006",
+      "T02-TUT",
+      "Tutorial",
+      "1786",
+      "Tu 20:00 - 20:50",
+      "Teaching B Bldg 303",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "DDA4250",
+      "L01-LEC",
+      "Lecture",
+      "1920",
+      "ThFr 10:30 - 11:50",
+      "Teaching A Bldg 305",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "DDA4250",
+      "T01-TUT",
+      "Tutorial",
+      "1921",
+      "Th 20:00 - 20:50",
+      "Teaching A Bldg 303",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "DDA4002",
+      "L01-LEC",
+      "Lecture",
+      "1952",
+      "MoWe 15:30 - 16:50",
+      "Teaching B Bldg 102",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "DDA4002",
+      "T01-TUT",
+      "Tutorial",
+      "1953",
+      "We 19:00 - 19:50",
+      "Teaching D Bldg 102",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "DDA4007",
+      "L01-LEC",
+      "Lecture",
+      "2651",
+      "MoWe 13:30 - 14:50",
+      "Teaching D Bldg 103",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "DDA4007",
+      "T01-TUT",
+      "Tutorial",
+      "2652",
+      "We 18:00 - 18:50",
+      "Teaching C Bldg 414",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "DDA4330",
+      "L01-LEC",
+      "Lecture",
+      "2388",
+      "Th 08:30 - 10:20",
+      "Teaching D Bldg 313",
+      "Yurii Nesterov",
+      "2026/10/05 - 2026/12/18"
+    ],
+    [
+      "DDA4370",
+      "L01-LEC",
+      "Lecture",
+      "2690",
+      "TuTh 13:30 - 16:50",
+      "Teaching D Bldg 313",
+      "Staff",
+      "2026/11/09 - 2026/12/18"
+    ],
+    [
+      "STA3007",
+      "L01-LEC",
+      "Lecture",
+      "1660",
+      "TuTh 13:30 - 14:50",
+      "Teaching D Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "STA3007",
+      "T01-TUT",
+      "Tutorial",
+      "1661",
+      "Th 18:00 - 18:50",
+      "Teaching D Bldg 109",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "STA4003",
+      "L01-LEC",
+      "Lecture",
+      "1668",
+      "MoWe 15:30 - 16:50",
+      "Teaching B Bldg 104",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "STA4003",
+      "T01-TUT",
+      "Tutorial",
+      "1669",
+      "Th 19:00 - 19:50",
+      "Teaching D Bldg 105",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "STA4003",
+      "T02-TUT",
+      "Tutorial",
+      "1670",
+      "Fr 19:00 - 19:50",
+      "Teaching A Bldg 302",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "STA4504",
+      "L01-LEC",
+      "Lecture",
+      "2716",
+      "We 14:00 - 16:50",
+      "Teaching D Bldg 107",
+      "Pierre Del Moral",
+      "2026/11/02 - 2026/12/18"
+    ],
+    [
+      "STA4606",
+      "L01-LEC",
+      "Lecture",
+      "2360",
+      "MoWe 13:30 - 14:50",
+      "Teaching Complex C203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "CSC3002",
+      "L01-LEC",
+      "Lecture",
+      "1607",
+      "MoWe 10:30 - 11:50",
+      "Teaching Complex C201",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "CSC3002",
+      "T01-TUT",
+      "Tutorial",
+      "1608",
+      "Mo 19:00 - 19:50",
+      "Teaching D Bldg 307",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "CSC3002",
+      "T02-TUT",
+      "Tutorial",
+      "1609",
+      "Mo 18:00 - 18:50",
+      "Teaching D Bldg 307",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "STA4020",
+      "L01-LEC",
+      "Lecture",
+      "1671",
+      "MoWe 13:30 - 14:50",
+      "Cheng Dao Bldg 208",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "STA4020",
+      "T01-TUT",
+      "Tutorial",
+      "1672",
+      "Mo 18:00 - 18:50",
+      "Teaching D Bldg 105",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "L01-LEC",
+      "Lecture",
+      "1432",
+      "Tu 10:30 - 12:20",
+      "Cheng Dao Bldg 208",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "L02-LEC",
+      "Lecture",
+      "1433",
+      "Tu 13:30 - 15:20",
+      "Cheng Dao Bldg 207",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "L03-LEC",
+      "Lecture",
+      "1434",
+      "Mo 13:30 - 15:20",
+      "Teaching D Bldg 210",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "L04-LEC",
+      "Lecture",
+      "1435",
+      "Mo 10:30 - 12:20",
+      "Teaching A Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "L05-LEC",
+      "Lecture",
+      "1436",
+      "Tu 10:30 - 12:20",
+      "Teaching Complex B201",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "L06-LEC",
+      "Lecture",
+      "1437",
+      "Tu 15:30 - 17:20",
+      "Teaching C Bldg 308",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "L07-LEC",
+      "Lecture",
+      "1438",
+      "Tu 08:30 - 10:20",
+      "Teaching A Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "L08-LEC",
+      "Lecture",
+      "1439",
+      "We 10:30 - 12:20",
+      "Teaching A Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "L09-LEC",
+      "Lecture",
+      "1440",
+      "Mo 15:30 - 17:20",
+      "Teaching Complex C202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T01-TUT",
+      "Tutorial",
+      "1441",
+      "Th 10:30 - 12:20",
+      "Teaching C Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T02-TUT",
+      "Tutorial",
+      "1442",
+      "Fr 10:30 - 12:20",
+      "Teaching C Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T03-TUT",
+      "Tutorial",
+      "1443",
+      "We 13:30 - 15:20",
+      "Teaching C Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T04-TUT",
+      "Tutorial",
+      "1444",
+      "Th 13:30 - 15:20",
+      "Teaching C Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T05-TUT",
+      "Tutorial",
+      "1445",
+      "We 13:30 - 15:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T06-TUT",
+      "Tutorial",
+      "1446",
+      "We 15:30 - 17:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T07-TUT",
+      "Tutorial",
+      "1447",
+      "We 08:30 - 10:20",
+      "Teaching C Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T08-TUT",
+      "Tutorial",
+      "1448",
+      "We 10:30 - 12:20",
+      "Teaching C Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T09-TUT",
+      "Tutorial",
+      "1449",
+      "We 15:30 - 17:20",
+      "Teaching C Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T10-TUT",
+      "Tutorial",
+      "1450",
+      "Th 10:30 - 12:20",
+      "Teaching C Bldg 304",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T11-TUT",
+      "Tutorial",
+      "1451",
+      "Th 15:30 - 17:20",
+      "Teaching D Bldg 304",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T12-TUT",
+      "Tutorial",
+      "1452",
+      "Th 13:30 - 15:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T13-TUT",
+      "Tutorial",
+      "1453",
+      "Th 15:30 - 17:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T14-TUT",
+      "Tutorial",
+      "1454",
+      "Th 08:30 - 10:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T15-TUT",
+      "Tutorial",
+      "1455",
+      "Fr 10:30 - 12:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T16-TUT",
+      "Tutorial",
+      "1456",
+      "Fr 08:30 - 10:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T17-TUT",
+      "Tutorial",
+      "1457",
+      "Th 08:30 - 10:20",
+      "Teaching C Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T18-TUT",
+      "Tutorial",
+      "1458",
+      "Fr 08:30 - 10:20",
+      "Teaching C Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T19-TUT",
+      "Tutorial",
+      "1459",
+      "Fr 10:30 - 12:20",
+      "Teaching C Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T20-TUT",
+      "Tutorial",
+      "1460",
+      "Tu 13:30 - 15:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T21-TUT",
+      "Tutorial",
+      "1461",
+      "Tu 15:30 - 17:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T22-TUT",
+      "Tutorial",
+      "1462",
+      "We 13:30 - 15:20",
+      "Teaching C Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T23-TUT",
+      "Tutorial",
+      "1463",
+      "We 15:30 - 17:20",
+      "Teaching C Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T24-TUT",
+      "Tutorial",
+      "1464",
+      "We 15:30 - 17:20",
+      "Teaching C Bldg 206",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GEA2000",
+      "T25-TUT",
+      "Tutorial",
+      "1465",
+      "We 10:30 - 12:20",
+      "Teaching D Bldg 209",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L01-LEC",
+      "Lecture",
+      "1176",
+      "Fr 13:30 - 14:20",
+      "Teaching A Bldg 304",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L02-LEC",
+      "Lecture",
+      "1177",
+      "Fr 13:30 - 14:20",
+      "Teaching B Bldg 102",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L03-LEC",
+      "Lecture",
+      "1178",
+      "Fr 13:30 - 14:20",
+      "Teaching A Bldg 302",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L04-LEC",
+      "Lecture",
+      "1179",
+      "Fr 13:30 - 14:20",
+      "Teaching A Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L05-LEC",
+      "Lecture",
+      "1180",
+      "Fr 13:30 - 14:20",
+      "Teaching A Bldg 204",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L06-LEC",
+      "Lecture",
+      "1181",
+      "Fr 13:30 - 14:20",
+      "Teaching Complex C202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L07-LEC",
+      "Lecture",
+      "1182",
+      "Fr 13:30 - 14:20",
+      "Teaching D Bldg 209",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L08-LEC",
+      "Lecture",
+      "1183",
+      "Fr 13:30 - 14:20",
+      "Teaching D Bldg 108",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L09-LEC",
+      "Lecture",
+      "1184",
+      "Fr 13:30 - 14:20",
+      "Teaching A Bldg 205",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L10-LEC",
+      "Lecture",
+      "1185",
+      "Fr 13:30 - 14:20",
+      "Teaching Complex C302",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L11-LEC",
+      "Lecture",
+      "1186",
+      "Fr 13:30 - 14:20",
+      "Teaching C Bldg 103",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L12-LEC",
+      "Lecture",
+      "1187",
+      "Fr 13:30 - 14:20",
+      "Teaching D Bldg 109",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L13-LEC",
+      "Lecture",
+      "1188",
+      "Fr 13:30 - 14:20",
+      "Teaching D Bldg 110",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "L14-LEC",
+      "Lecture",
+      "1189",
+      "Fr 13:30 - 14:20",
+      "Teaching C Bldg 206",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T01-TUT",
+      "Tutorial",
+      "1190",
+      "Mo 08:30 - 10:20",
+      "Teaching C Bldg 313",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T02-TUT",
+      "Tutorial",
+      "1191",
+      "Mo 10:30 - 12:20",
+      "Teaching C Bldg 313",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T03-TUT",
+      "Tutorial",
+      "1192",
+      "Tu 08:30 - 10:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T04-TUT",
+      "Tutorial",
+      "1193",
+      "Tu 10:30 - 12:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T05-TUT",
+      "Tutorial",
+      "1194",
+      "We 08:30 - 10:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T06-TUT",
+      "Tutorial",
+      "1195",
+      "We 10:30 - 12:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T07-TUT",
+      "Tutorial",
+      "1196",
+      "We 19:00 - 20:50",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T08-TUT",
+      "Tutorial",
+      "1197",
+      "Th 08:30 - 10:20",
+      "Teaching B Bldg 305",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T09-TUT",
+      "Tutorial",
+      "1198",
+      "Th 10:30 - 12:20",
+      "Teaching B Bldg 305",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T10-TUT",
+      "Tutorial",
+      "1199",
+      "Th 13:30 - 15:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T11-TUT",
+      "Tutorial",
+      "1200",
+      "Th 13:30 - 15:20",
+      "Teaching C Bldg 303",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T12-TUT",
+      "Tutorial",
+      "1201",
+      "Th 10:30 - 12:20",
+      "Teaching D Bldg 210",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T13-TUT",
+      "Tutorial",
+      "1202",
+      "We 13:30 - 15:20",
+      "Teaching D Bldg 310",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T14-TUT",
+      "Tutorial",
+      "1203",
+      "We 15:30 - 17:20",
+      "Teaching D Bldg 310",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T15-TUT",
+      "Tutorial",
+      "1204",
+      "We 10:30 - 12:20",
+      "Teaching A Bldg 207",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T16-TUT",
+      "Tutorial",
+      "1205",
+      "We 13:30 - 15:20",
+      "Teaching A Bldg 207",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T17-TUT",
+      "Tutorial",
+      "1206",
+      "Tu 10:30 - 12:20",
+      "Teaching C Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T18-TUT",
+      "Tutorial",
+      "1207",
+      "Tu 13:30 - 15:20",
+      "Teaching C Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T19-TUT",
+      "Tutorial",
+      "1208",
+      "Mo 13:30 - 15:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T20-TUT",
+      "Tutorial",
+      "1209",
+      "Mo 15:30 - 17:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T21-TUT",
+      "Tutorial",
+      "1210",
+      "We 08:30 - 10:20",
+      "Teaching D Bldg 313",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T22-TUT",
+      "Tutorial",
+      "1211",
+      "Th 08:30 - 10:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T23-TUT",
+      "Tutorial",
+      "1212",
+      "Th 10:30 - 12:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T24-TUT",
+      "Tutorial",
+      "1213",
+      "We 15:30 - 17:20",
+      "Teaching A Bldg 207",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T25-TUT",
+      "Tutorial",
+      "1214",
+      "Tu 15:30 - 17:20",
+      "Teaching C Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T26-TUT",
+      "Tutorial",
+      "1215",
+      "Tu 13:30 - 15:20",
+      "Teaching C Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T27-TUT",
+      "Tutorial",
+      "1216",
+      "Tu 08:30 - 10:20",
+      "Teaching D Bldg 310",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T28-TUT",
+      "Tutorial",
+      "1217",
+      "Tu 13:30 - 15:20",
+      "Teaching D Bldg 310",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T29-TUT",
+      "Tutorial",
+      "1218",
+      "Tu 15:30 - 17:20",
+      "Teaching D Bldg 310",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T30-TUT",
+      "Tutorial",
+      "1219",
+      "Th 15:30 - 17:20",
+      "Teaching C Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T31-TUT",
+      "Tutorial",
+      "1220",
+      "Th 10:30 - 12:20",
+      "Teaching C Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T32-TUT",
+      "Tutorial",
+      "1221",
+      "We 13:30 - 15:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T33-TUT",
+      "Tutorial",
+      "1222",
+      "We 15:30 - 17:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFH1000",
+      "T34-TUT",
+      "Tutorial",
+      "1223",
+      "Th 08:30 - 10:20",
+      "Teaching B Bldg 301",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "L01-LEC",
+      "Lecture",
+      "1224",
+      "Fr 13:30 - 14:20",
+      "Teaching A Bldg 309",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "L02-LEC",
+      "Lecture",
+      "1225",
+      "Fr 13:30 - 14:20",
+      "Teaching Complex B206",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "L03-LEC",
+      "Lecture",
+      "1226",
+      "Fr 13:30 - 14:20",
+      "Teaching Complex D202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "L04-LEC",
+      "Lecture",
+      "1227",
+      "Fr 13:30 - 14:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "L05-LEC",
+      "Lecture",
+      "1228",
+      "Fr 13:30 - 14:20",
+      "Teaching Complex C102",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "L06-LEC",
+      "Lecture",
+      "1229",
+      "Fr 13:30 - 14:20",
+      "Teaching D Bldg 102",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "L07-LEC",
+      "Lecture",
+      "1230",
+      "Fr 13:30 - 14:20",
+      "Teaching Complex C203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "L08-LEC",
+      "Lecture",
+      "1231",
+      "Fr 13:30 - 14:20",
+      "Teaching Complex C303",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "L09-LEC",
+      "Lecture",
+      "1232",
+      "Fr 13:30 - 14:20",
+      "Teaching A Bldg 201",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "L10-LEC",
+      "Lecture",
+      "1233",
+      "Fr 14:30 - 15:20",
+      "Teaching A Bldg 201",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T01-TUT",
+      "Tutorial",
+      "1234",
+      "Tu 08:30 - 10:20",
+      "Teaching D Bldg 313",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T02-TUT",
+      "Tutorial",
+      "1235",
+      "Tu 10:30 - 12:20",
+      "Teaching D Bldg 313",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T03-TUT",
+      "Tutorial",
+      "1236",
+      "Tu 10:30 - 12:20",
+      "Teaching C Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T04-TUT",
+      "Tutorial",
+      "1237",
+      "Tu 13:30 - 15:20",
+      "Teaching C Bldg 302",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T05-TUT",
+      "Tutorial",
+      "1238",
+      "Tu 15:30 - 17:20",
+      "Teaching C Bldg 302",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T06-TUT",
+      "Tutorial",
+      "1239",
+      "Mo 08:30 - 10:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T07-TUT",
+      "Tutorial",
+      "1240",
+      "Mo 10:30 - 12:20",
+      "Teaching D Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T08-TUT",
+      "Tutorial",
+      "1241",
+      "Tu 08:30 - 10:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T09-TUT",
+      "Tutorial",
+      "1242",
+      "Tu 10:30 - 12:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T10-TUT",
+      "Tutorial",
+      "1243",
+      "Tu 13:30 - 15:20",
+      "Teaching A Bldg 304",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T11-TUT",
+      "Tutorial",
+      "1244",
+      "Tu 15:30 - 17:20",
+      "Cheng Dao Bldg 208",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T12-TUT",
+      "Tutorial",
+      "1245",
+      "We 13:30 - 15:20",
+      "Teaching C Bldg 313",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T13-TUT",
+      "Tutorial",
+      "1246",
+      "We 15:30 - 17:20",
+      "Teaching C Bldg 313",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T14-TUT",
+      "Tutorial",
+      "1247",
+      "Th 08:30 - 10:20",
+      "Teaching C Bldg 313",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T15-TUT",
+      "Tutorial",
+      "1248",
+      "Th 13:30 - 15:20",
+      "Teaching C Bldg 302",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T16-TUT",
+      "Tutorial",
+      "1249",
+      "Th 15:30 - 17:20",
+      "Teaching C Bldg 302",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T17-TUT",
+      "Tutorial",
+      "1250",
+      "We 08:30 - 10:20",
+      "Teaching B Bldg 306",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T18-TUT",
+      "Tutorial",
+      "1251",
+      "We 10:30 - 12:20",
+      "Teaching B Bldg 306",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T19-TUT",
+      "Tutorial",
+      "1252",
+      "Th 10:30 - 12:20",
+      "Teaching A Bldg 107",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T20-TUT",
+      "Tutorial",
+      "1253",
+      "We 15:30 - 17:20",
+      "Teaching D Bldg 311",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T21-TUT",
+      "Tutorial",
+      "1254",
+      "We 08:30 - 10:20",
+      "Teaching B Bldg 305",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T22-TUT",
+      "Tutorial",
+      "1255",
+      "We 10:30 - 12:20",
+      "Teaching B Bldg 305",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T23-TUT",
+      "Tutorial",
+      "1256",
+      "Th 08:30 - 10:20",
+      "Teaching C Bldg 312",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T24-TUT",
+      "Tutorial",
+      "1257",
+      "Th 13:30 - 15:20",
+      "Teaching A Bldg 317",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T25-TUT",
+      "Tutorial",
+      "1258",
+      "Th 10:30 - 12:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T26-TUT",
+      "Tutorial",
+      "1259",
+      "Th 13:30 - 15:20",
+      "Teaching D Bldg 310",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T27-TUT",
+      "Tutorial",
+      "1260",
+      "Th 15:30 - 17:20",
+      "Teaching D Bldg 310",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T28-TUT",
+      "Tutorial",
+      "1261",
+      "Mo 13:30 - 15:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "GFN1000",
+      "T29-TUT",
+      "Tutorial",
+      "1262",
+      "Mo 15:30 - 17:20",
+      "Teaching C Bldg 314",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L13-LEC",
+      "Lecture",
+      "1362",
+      "MoWe 08:30 - 09:50",
+      "Teaching C Bldg 114",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L29-LEC",
+      "Lecture",
+      "1378",
+      "MoWe 08:30 - 09:50",
+      "Teaching C Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L33-LEC",
+      "Lecture",
+      "1382",
+      "MoWe 08:30 - 09:50",
+      "Teaching C Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L51-LEC",
+      "Lecture",
+      "1400",
+      "MoWe 08:30 - 09:50",
+      "Teaching C Bldg 115",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L14-LEC",
+      "Lecture",
+      "1363",
+      "MoWe 10:30 - 11:50",
+      "Teaching C Bldg 114",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L30-LEC",
+      "Lecture",
+      "1379",
+      "MoWe 10:30 - 11:50",
+      "Teaching C Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L34-LEC",
+      "Lecture",
+      "1383",
+      "MoWe 10:30 - 11:50",
+      "Teaching C Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L37-LEC",
+      "Lecture",
+      "1386",
+      "MoWe 10:30 - 11:50",
+      "Teaching D Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L41-LEC",
+      "Lecture",
+      "1390",
+      "MoWe 10:30 - 11:50",
+      "Teaching D Bldg 211",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L52-LEC",
+      "Lecture",
+      "1401",
+      "MoWe 10:30 - 11:50",
+      "Teaching C Bldg 115",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L57-LEC",
+      "Lecture",
+      "1406",
+      "MoWe 10:30 - 11:50",
+      "Teaching C Bldg 204",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L01-LEC",
+      "Lecture",
+      "1350",
+      "MoWe 13:30 - 14:50",
+      "Teaching C Bldg 113",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L05-LEC",
+      "Lecture",
+      "1354",
+      "MoWe 13:30 - 14:50",
+      "Teaching C Bldg 114",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L09-LEC",
+      "Lecture",
+      "1358",
+      "MoWe 13:30 - 14:50",
+      "Teaching C Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L17-LEC",
+      "Lecture",
+      "1366",
+      "MoWe 13:30 - 14:50",
+      "Teaching C Bldg 115",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L25-LEC",
+      "Lecture",
+      "1374",
+      "MoWe 13:30 - 14:50",
+      "Teaching D Bldg 201",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L38-LEC",
+      "Lecture",
+      "1387",
+      "MoWe 13:30 - 14:50",
+      "Teaching D Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L42-LEC",
+      "Lecture",
+      "1391",
+      "MoWe 13:30 - 14:50",
+      "Teaching D Bldg 211",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L02-LEC",
+      "Lecture",
+      "1351",
+      "MoWe 15:30 - 16:50",
+      "Teaching C Bldg 113",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L06-LEC",
+      "Lecture",
+      "1355",
+      "MoWe 15:30 - 16:50",
+      "Teaching C Bldg 114",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L10-LEC",
+      "Lecture",
+      "1359",
+      "MoWe 15:30 - 16:50",
+      "Teaching C Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L18-LEC",
+      "Lecture",
+      "1367",
+      "MoWe 15:30 - 16:50",
+      "Teaching C Bldg 115",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L21-LEC",
+      "Lecture",
+      "1370",
+      "MoWe 15:30 - 16:50",
+      "Teaching C Bldg 204",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L43-LEC",
+      "Lecture",
+      "1392",
+      "MoWe 15:30 - 16:50",
+      "Teaching D Bldg 211",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L22-LEC",
+      "Lecture",
+      "1371",
+      "MoWe 18:00 - 19:20",
+      "Teaching C Bldg 204",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L26-LEC",
+      "Lecture",
+      "1375",
+      "MoWe 18:00 - 19:20",
+      "Teaching D Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L48-LEC",
+      "Lecture",
+      "1397",
+      "MoWe 18:00 - 19:20",
+      "Teaching C Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L49-LEC",
+      "Lecture",
+      "1398",
+      "MoWe 18:00 - 19:20",
+      "Teaching C Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L54-LEC",
+      "Lecture",
+      "1403",
+      "MoWe 18:00 - 19:20",
+      "Teaching C Bldg 210",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L15-LEC",
+      "Lecture",
+      "1364",
+      "TuTh 08:30 - 09:50",
+      "Teaching C Bldg 114",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L31-LEC",
+      "Lecture",
+      "1380",
+      "TuTh 08:30 - 09:50",
+      "Teaching C Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L35-LEC",
+      "Lecture",
+      "1384",
+      "TuTh 08:30 - 09:50",
+      "Teaching C Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L44-LEC",
+      "Lecture",
+      "1393",
+      "TuTh 08:30 - 09:50",
+      "Teaching D Bldg 211",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L58-LEC",
+      "Lecture",
+      "1407",
+      "TuTh 08:30 - 09:50",
+      "Teaching C Bldg 204",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L16-LEC",
+      "Lecture",
+      "1365",
+      "TuTh 10:30 - 11:50",
+      "Teaching C Bldg 114",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L32-LEC",
+      "Lecture",
+      "1381",
+      "TuTh 10:30 - 11:50",
+      "Teaching C Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L36-LEC",
+      "Lecture",
+      "1385",
+      "TuTh 10:30 - 11:50",
+      "Teaching C Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L39-LEC",
+      "Lecture",
+      "1388",
+      "TuTh 10:30 - 11:50",
+      "Teaching D Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L45-LEC",
+      "Lecture",
+      "1394",
+      "TuTh 10:30 - 11:50",
+      "Teaching D Bldg 211",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L53-LEC",
+      "Lecture",
+      "1402",
+      "TuTh 10:30 - 11:50",
+      "Teaching C Bldg 115",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L59-LEC",
+      "Lecture",
+      "1408",
+      "TuTh 10:30 - 11:50",
+      "Teaching C Bldg 204",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L03-LEC",
+      "Lecture",
+      "1352",
+      "TuTh 13:30 - 14:50",
+      "Teaching C Bldg 113",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L07-LEC",
+      "Lecture",
+      "1356",
+      "TuTh 13:30 - 14:50",
+      "Teaching C Bldg 114",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L11-LEC",
+      "Lecture",
+      "1360",
+      "TuTh 13:30 - 14:50",
+      "Teaching C Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L19-LEC",
+      "Lecture",
+      "1368",
+      "TuTh 13:30 - 14:50",
+      "Teaching C Bldg 115",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L27-LEC",
+      "Lecture",
+      "1376",
+      "TuTh 13:30 - 14:50",
+      "Teaching D Bldg 201",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L40-LEC",
+      "Lecture",
+      "1389",
+      "TuTh 13:30 - 14:50",
+      "Teaching D Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L04-LEC",
+      "Lecture",
+      "1353",
+      "TuTh 15:30 - 16:50",
+      "Teaching C Bldg 113",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L08-LEC",
+      "Lecture",
+      "1357",
+      "TuTh 15:30 - 16:50",
+      "Teaching C Bldg 114",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L12-LEC",
+      "Lecture",
+      "1361",
+      "TuTh 15:30 - 16:50",
+      "Teaching C Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L20-LEC",
+      "Lecture",
+      "1369",
+      "TuTh 15:30 - 16:50",
+      "Teaching C Bldg 115",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L23-LEC",
+      "Lecture",
+      "1372",
+      "TuTh 15:30 - 16:50",
+      "Teaching C Bldg 204",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L46-LEC",
+      "Lecture",
+      "1395",
+      "TuTh 15:30 - 16:50",
+      "Teaching C Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L55-LEC",
+      "Lecture",
+      "1404",
+      "TuTh 15:30 - 16:50",
+      "Teaching C Bldg 210",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L24-LEC",
+      "Lecture",
+      "1373",
+      "TuTh 18:00 - 19:20",
+      "Teaching C Bldg 204",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L28-LEC",
+      "Lecture",
+      "1377",
+      "TuTh 18:00 - 19:20",
+      "Teaching D Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L47-LEC",
+      "Lecture",
+      "1396",
+      "TuTh 18:00 - 19:20",
+      "Teaching C Bldg 203",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L50-LEC",
+      "Lecture",
+      "1399",
+      "TuTh 18:00 - 19:20",
+      "Teaching C Bldg 202",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ],
+    [
+      "ENG2001",
+      "L56-LEC",
+      "Lecture",
+      "1405",
+      "TuTh 18:00 - 19:20",
+      "Teaching C Bldg 210",
+      "Staff",
+      "2026/09/07 - 2026/12/18"
+    ]
+  ]
+}
