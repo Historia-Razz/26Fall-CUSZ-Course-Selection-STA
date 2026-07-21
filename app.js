@@ -1,5 +1,18 @@
     const dayNames = { Mo: "Monday", Tu: "Tuesday", We: "Wednesday", Th: "Thursday", Fr: "Friday" };
     const dayOrder = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+    const componentLinks = {
+      GEA2000: {
+        "L01-LEC": ["T01-TUT", "T02-TUT"],
+        "L02-LEC": ["T03-TUT", "T04-TUT"],
+        "L03-LEC": ["T05-TUT", "T06-TUT"],
+        "L04-LEC": ["T07-TUT", "T08-TUT", "T09-TUT"],
+        "L05-LEC": ["T10-TUT", "T11-TUT"],
+        "L06-LEC": ["T12-TUT", "T13-TUT", "T24-TUT", "T25-TUT"],
+        "L07-LEC": ["T14-TUT", "T15-TUT", "T16-TUT"],
+        "L08-LEC": ["T17-TUT", "T18-TUT", "T19-TUT"],
+        "L09-LEC": ["T20-TUT", "T21-TUT", "T22-TUT", "T23-TUT"]
+      }
+    };
     const selected = new Set();
     let courseMeta = {};
     let rows = [];
@@ -44,9 +57,87 @@ function buildScheduleRows(active) {
   }
   return [...byStart.values()].sort((a, b) => a.start - b.start || a.end - b.end);
 }
+function compatibleTutorialSectionsForLecture(course, lectureSection) {
+  return componentLinks[course]?.[lectureSection] || [];
+}
+function selectedLecturesForCourse(course, selectedIds = selected, allSessions = courses) {
+  return allSessions.filter(s => (
+    s.course === course &&
+    s.type === "Lecture" &&
+    selectedIds.has(s.id)
+  ));
+}
+function filterSessionsForCourse(sessions, selectedIds = selected) {
+  const [first] = sessions;
+  const links = first ? componentLinks[first.course] : null;
+  if (!links) return sessions;
+
+  const selectedLectures = selectedLecturesForCourse(first.course, selectedIds, sessions);
+  if (!selectedLectures.length) return sessions;
+
+  const allowedTutorials = new Set(
+    selectedLectures.flatMap(lecture => compatibleTutorialSectionsForLecture(lecture.course, lecture.section))
+  );
+  return sessions.filter(s => s.type !== "Tutorial" || allowedTutorials.has(s.section));
+}
+function pruneIncompatibleSelections(course) {
+  const sessions = courses.filter(s => s.course === course);
+  const visibleIds = new Set(filterSessionsForCourse(sessions).map(s => s.id));
+  sessions
+    .filter(s => s.type === "Tutorial" && selected.has(s.id) && !visibleIds.has(s.id))
+    .forEach(s => selected.delete(s.id));
+}
+function enforceSingleComponentSelection(session) {
+  if (!componentLinks[session.course]) return;
+  if (session.type === "Lecture") {
+    courses
+      .filter(s => s.course === session.course && s.type === "Lecture" && s.id !== session.id)
+      .forEach(s => selected.delete(s.id));
+  }
+  if (session.type === "Tutorial") {
+    courses
+      .filter(s => s.course === session.course && s.type === "Tutorial" && s.id !== session.id)
+      .forEach(s => selected.delete(s.id));
+  }
+}
+function serializeSelection(selectedIds = selected) {
+  return JSON.stringify({
+    type: "cuhksz-course-planner-selection",
+    version: 1,
+    exportedAt: new Date().toISOString(),
+    selectedSessionIds: [...selectedIds].sort()
+  }, null, 2);
+}
+function parseSelectionJson(text, availableIds) {
+  let payload;
+  try {
+    payload = JSON.parse(text);
+  } catch (error) {
+    throw new Error("JSON 格式不正确。");
+  }
+  const ids = Array.isArray(payload) ? payload : payload.selectedSessionIds;
+  if (!Array.isArray(ids)) {
+    throw new Error("JSON 中缺少 selectedSessionIds 数组。");
+  }
+  const validIds = ids.filter(id => availableIds.has(id));
+  if (!validIds.length && ids.length) {
+    throw new Error("JSON 中的 session 在当前数据中不存在。");
+  }
+  return new Set(validIds);
+}
+function syncCheckboxes() {
+  document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+    cb.checked = selected.has(cb.value);
+  });
+}
 
     function renderCourseList() {
       const root = document.getElementById("courseList");
+      const openCourses = new Set(
+        [...document.querySelectorAll("details.course-card[open]")]
+          .map(d => d.dataset.course)
+          .filter(Boolean)
+      );
       const byArea = groupBy(Object.keys(courseMeta), c => courseMeta[c].area);
       const areaOrder = [
         "必修 / 通识与英文",
@@ -69,12 +160,17 @@ function buildScheduleRows(active) {
         courseCodes.forEach(code => group.appendChild(courseCard(code)));
         root.appendChild(group);
       }
+      document.querySelectorAll("details.course-card").forEach(d => {
+        d.open = openCourses.has(d.dataset.course);
+      });
+      syncCheckboxes();
     }
     function courseCard(code) {
       const meta = courseMeta[code];
       const details = document.createElement("details");
       details.className = `course-card ${meta.color}`;
-      const sessions = courses.filter(s => s.course === code);
+      details.dataset.course = code;
+      const sessions = filterSessionsForCourse(courses.filter(s => s.course === code));
       details.innerHTML = `<summary><span class="course-title"><span class="course-code">${code}</span><span class="course-name">${meta.zh} / ${meta.en}</span></span></summary>`;
       ["Lecture", "Tutorial"].forEach(kind => {
         const items = sessions.filter(s => s.type === kind);
@@ -93,7 +189,14 @@ function buildScheduleRows(active) {
               <span class="session-meta">${s.daysTimes} · ${s.room} · ${s.instructor}</span>
             </span>`;
           label.querySelector("input").addEventListener("change", e => {
-            e.target.checked ? selected.add(s.id) : selected.delete(s.id);
+            if (e.target.checked) {
+              selected.add(s.id);
+              enforceSingleComponentSelection(s);
+            } else {
+              selected.delete(s.id);
+            }
+            pruneIncompatibleSelections(s.course);
+            renderCourseList();
             renderSchedule();
           });
           details.appendChild(label);
@@ -185,6 +288,8 @@ function buildScheduleRows(active) {
         cb.checked = true;
         selected.add(cb.value);
       });
+      Object.keys(componentLinks).forEach(pruneIncompatibleSelections);
+      renderCourseList();
       renderSchedule();
     });
     document.getElementById("openAll").addEventListener("click", () => {
@@ -192,6 +297,34 @@ function buildScheduleRows(active) {
     });
     document.getElementById("closeAll").addEventListener("click", () => {
       document.querySelectorAll("details.course-card").forEach(d => d.open = false);
+    });
+    document.getElementById("exportJson").addEventListener("click", () => {
+      const blob = new Blob([serializeSelection()], { type: "application/json" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "course-schedule-selection.json";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(link.href);
+    });
+    document.getElementById("importJson").addEventListener("click", () => {
+      document.getElementById("importJsonFile").click();
+    });
+    document.getElementById("importJsonFile").addEventListener("change", async event => {
+      const [file] = event.target.files;
+      event.target.value = "";
+      if (!file) return;
+      try {
+        const imported = parseSelectionJson(await file.text(), new Set(courses.map(s => s.id)));
+        selected.clear();
+        imported.forEach(id => selected.add(id));
+        Object.keys(componentLinks).forEach(pruneIncompatibleSelections);
+        renderCourseList();
+        renderSchedule();
+      } catch (error) {
+        alert(error.message);
+      }
     });
 
     async function init() {
@@ -212,6 +345,13 @@ function buildScheduleRows(active) {
         console.error(error);
       }
     }
+
+    window.__coursePlannerInternals = {
+      compatibleTutorialSectionsForLecture,
+      filterSessionsForCourse,
+      parseSelectionJson,
+      serializeSelection
+    };
 
     init();
   

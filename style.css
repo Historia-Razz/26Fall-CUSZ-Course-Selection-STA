@@ -112,7 +112,7 @@
       overflow: auto;
     }
     aside h2 { margin: 0 0 10px; font-size: 18px; }
-    .tools { display: flex; gap: 8px; margin-bottom: 12px; }
+    .tools { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
     button {
       border: 1px solid var(--ink);
       background: #fff;
