@@ -147,6 +147,7 @@ function syncCheckboxes() {
         "Area 4 Financial Statistics",
         "Complementary / ML & DL",
         "Complementary Electives",
+        "Postgraduate Courses / DDA-MAT-CSC",
         "Not in STAT Scheme / Verify Credit"
       ];
       root.innerHTML = "";
